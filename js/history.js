@@ -1,6 +1,5 @@
 import { store } from "./app.js";
-import { saveTasks } from "./storage.js";
-import { renderTasks } from "./ui.js";
+
 
 export function createHistoryManager() {
   const past = [];
